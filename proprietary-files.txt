@@ -1,8 +1,6 @@
 # Audio
-# - lib/hw/audio_policy.universal5422.so
+lib/hw/audio_policy.default.so
 lib/hw/audio.primary.universal5422.so
-# - lib/libymc_codecctrl.so
-# - lib/libymc_config.so
 lib/libsamsungSoundbooster_ext.so
 lib/lib_Samsung_Resampler.so
 lib/lib_soundaliveresampler.so
@@ -14,27 +12,21 @@ lib/lib_SoundAlive_SRC192_ver205.so
 lib/lib_SamsungRec_V04004.so
 lib/lib_DNSe_NRSS_ver226.so
 lib/lib_Samsung_AudioZoom_v102.so
-# - lib/lib_SoundBooster_ver402.so
+lib/lib_SoundBooster_ver504.so
 # lib/libcontrolcsc.so
-
-csc/sales_code.dat
+lib/libmysound.so
+lib/libaudiosa.so
+lib/lib_SA_GoogleFX_ver124b.so
+lib/soundfx/libaudiosa_sec.so
+lib/lib_SoundAlive_play_ver125e.so
+vendor/lib/liblvverx_3.21.13.so
+vendor/lib/liblvvetx_3.21.13.so
+# csc/sales_code.dat
 usr/share/alsa/alsa.conf
 
-# - vendor/firmware/srp_cga.bin
-# - vendor/firmware/srp_data.bin
-# - vendor/firmware/srp_vliw.bin
-
 # Bluetooth
-# - vendor/firmware/bcm4335_A0.hcd
-# - vendor/firmware/bcm4335.hcd
-# - vendor/firmware/bcm4335_semco.hcd
-# - vendor/firmware/bcm4335_wisol.hcd
-# - vendor/firmware/bcm4335_V0091.0405_wisol.hcd
-# - vendor/firmware/bcm4339_A0.hcd
-# - vendor/firmware/bcm4339.hcd
-# - vendor/firmware/bcm4339_semco.hcd
-# - vendor/firmware/bcm4339_wisol.hcd
-# - vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0055.0254_ORC_H-LTE.hcd
+vendor/firmware/bcm4350_V0301.0562.hcd
+vendor/firmware/bcm4350_V0301.0563_wisol.hcd
 
 # OemCrypto
 lib/liboemcrypto.so
@@ -55,6 +47,7 @@ vendor/lib/libWVStreamControlAPI_L1.so
 lib/drm/libdrmwvmplugin.so
 vendor/lib/libwvm.so
 vendor/lib/mediadrm/libwvdrmengine.so
+lib/libExynosOMX_Core.so
 lib/omx/libOMX.Exynos.AVC.Decoder.so
 lib/omx/libOMX.Exynos.AVC.Encoder.so
 lib/omx/libOMX.Exynos.MPEG4.Decoder.so
@@ -73,12 +66,12 @@ lib/hw/gps.default.so
 lib/libwrappergps.so
 
 # Media
-# - vendor/firmware/fimc_is_fw2_3L2.bin
+vendor/firmware/fimc_is_fw2_2p2.bin
 vendor/firmware/fimc_is_fw2.bin
 vendor/firmware/mfc_fw.bin
-# - vendor/firmware/setfile_3L2.bin
+vendor/firmware/setfile_2p2.bin
 vendor/firmware/setfile_6b2.bin
-# - vendor/firmware/setfile_imx135.bin
+vendor/firmware/setfile_8b1.bin
 
 # MobiCore (not available in new stock)
 app/FFFFFFFF000000000000000000000001.drbin
@@ -95,13 +88,18 @@ app/mcRegistry/ffffffff000000000000000000000009.tlbin
 app/mcRegistry/ffffffff00000000000000000000000a.tlbin
 app/mcRegistry/ffffffff00000000000000000000000c.tlbin
 app/mcRegistry/ffffffff00000000000000000000000d.tlbin
+app/mcRegistry/ffffffff00000000000000000000000e.tlbin
 app/mcRegistry/ffffffff00000000000000000000000f.tlbin
-# - app/mcRegistry/ffffffff000000000000000000000010.tlbin
 app/mcRegistry/ffffffff000000000000000000000011.tlbin
 app/mcRegistry/ffffffff000000000000000000000012.tlbin
 app/mcRegistry/ffffffff000000000000000000000013.tlbin
+app/mcRegistry/ffffffff000000000000000000000016.tlbin
+app/mcRegistry/ffffffff000000000000000000000017.tlbin
+app/mcRegistry/ffffffff000000000000000000000018.tlbin
 app/mcRegistry/ffffffffd00000000000000000000004.tlbin
 app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
+app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
+app/mcRegistry/ffffffffd00000000000000000000016.tlbin
 bin/scranton_RD
 
 # Sensors
@@ -109,15 +107,8 @@ bin/sensorhubservice
 lib/hw/sensorhubs.universal5422.so
 lib/libgnustl_shared.so
 lib/hw/sensors.universal5422.so
-# - lib/libsensirion_h_3.so
 lib/libsensorhub.so
 lib/libsensorhubservice.so
-
-# NFC
-# - vendor/firmware/bcm2079xB4_firmware.ncd
-# - vendor/firmware/bcm2079xB4_pre_firmware.ncd
-# - vendor/firmware/bcm2079xB5_firmware.ncd
-# - vendor/firmware/bcm2079xB5_pre_firmware.ncd
 
 # Power
 # lib/hw/power.exynos5.so
